@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--<link rel="stylesheet" href="style.css">-->
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        #wrap {
+            margin: 0 auto;
+            width: 800px;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+        } 
+        
+        h1, h2 {
+            margin-top: 50px;
+        }
+
+        #me {
+            width: 400px;
+        }
+        
+        .myinfo {
+            font-family: 'Nanum Gothic Coding', monospace;
+            float: right;
+            margin: 0;
+            width: 400px;
+            list-style-type: square;
+            padding-left: 0px;
+        }
+
+        .myinfo li {
+            padding: 0px 20px 20px 20px;
+        }
+
+        .myinfo li:nth-child(1):hover {
+            font-weight: bold;
+            color: purple;
+        }
+
+
+        .myinfo li:nth-child(2):hover {
+            font-weight: bold;
+            color: blue;
+        }
+
+        
+        #favorite {
+            padding: 0;
+        }
+
+        #favorite li {
+            font-size:0;
+            line-height:0;
+            float: left;
+        }
+
+        .travel {
+            clear: both;
+            float: left;
+        }
+
+        #footer {
+            float: left;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        #footer span {
+            font-family: 'Nanum Gothic Coding', monospace;
+            margin-right: 30px;
+        }
+
+        hr {
+            margin-bottom: 20px;
+            width: 800px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <h1>Hello World!</h1>
+            <img src="header_img_800.jpg" alt="jump">
+        </header>
+
+        <section>
+            <div class="information">
+                <h2>Information</h2>
+                <span id="me">
+                    <img src="jayden_400.jpg" alt="jayden">
+                </span>
+
+                <ul class="myinfo">
+                    <li>이름: 이종헌(Jayden)</li>
+                    <li>관심사: 백엔드</li>
+                    <li>설명: 지금까지 다양한 직업을 가졌습니다. <br>하지만, 제가 하는 일의 중심에는 항상 컴퓨터가 있었습니다. 돌고돌아 이제서야 제가 진정으로 하고 싶은 일을 찾은 것 같습니다. <p>새로운 출발 화이팅!</p></li>
+                    
+                </ul>
+            </div>
+
+            <div class="favoritethings">
+                <h2>Favorite Things</h2>
+
+                <ul id="favorite">
+                    <li><img style="margin-right: 100px" src="junseo_200_200.jpg" alt="junseo"></li>
+                    <li><img style="margin-right: 100px" src="D45_200.png" alt="d45"></li>
+                    <li><img src="johnmayer_ractangle_200.jpg" alt="john"></li>
+                </ul>
+            </div>
+
+            <div class="travel">
+                <h2>Travel</h2>
+            </div>
+        </section>
+
+        <footer id="footer">
+            <hr>
+            <span>Name: Jayden Lee</span>
+            <span>Address: 인천시 연수구</span>
+            <span>Email: <a href = "mailto: guitarlove00@nate.com">guitarlove00@nate.com</a></span>
+        </footer>
+    </div>
+ 
+   
+</body>
+</html>
